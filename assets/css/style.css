@@ -1,9 +1,16 @@
 .navbgclr {
-    background-color: #3172bb;
+    /* background-color: #0182ec; */
+    background-color: #1173c1;
+    background-image: linear-gradient( 51deg, #ffffff, transparent);
 }
 
-.ms-50 {
-    margin-left: 45%;
+
+/* .ms-40 {
+    margin-left: 30% !important;
+} */
+
+.text-alignment {
+    text-align: justify;
 }
 
 .w-45 {
@@ -21,11 +28,6 @@
 .navbar-toggler {
     border-color: rgb(109, 25, 10) !important;
 }
-
-
-/* .custom-toggler {
-    border-color: white !important;
-} */
 
 .hero-image1 {
     background-image: url(../images/bannerimage.png);
@@ -121,10 +123,10 @@ a {
 }
 
 
-/* .gallery {
-    max-height: 500px;
-    overflow: scroll;
-} */
-
-
 /* GALLERY */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .navitemclr {
+        color: black !important;
+    }
+}
