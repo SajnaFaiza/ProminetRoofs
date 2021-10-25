@@ -129,4 +129,26 @@ a {
     .navitemclr {
         color: black !important;
     }
+    .text-alignment {
+        font-size: 10px;
+    }
+    .aboutus {
+        padding-top: 3% !important;
+    }
+    .col-4-fl {
+        width: 100% !important;
+    }
+    .hero-image1,
+    .hero-image2,
+    .hero-image3 {
+        height: 455px;
+    }
+    .hero-text {
+        position: inherit;
+        top: 45%;
+        left: 45%;
+    }
+    .hero-text h1 {
+        font-size: 22px !important;
+    }
 }
