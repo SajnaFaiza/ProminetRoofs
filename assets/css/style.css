@@ -94,9 +94,10 @@
     background-color: #c52205 !important;
 }
 
-.card-style {
+
+/* .card-style {
     width: 18rem;
-}
+} */
 
 a {
     text-decoration: none;
@@ -122,6 +123,10 @@ a {
     overflow: hidden;
 }
 
+.copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 /* GALLERY */
 
@@ -130,7 +135,10 @@ a {
         color: black !important;
     }
     .text-alignment {
-        font-size: 10px;
+        font-size: 16px;
+    }
+    .chooseus {
+        text-align: justify !important;
     }
     .aboutus {
         padding-top: 3% !important;
